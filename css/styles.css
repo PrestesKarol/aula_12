@@ -1,0 +1,149 @@
+.gradiente1 {
+    width: 800px;
+    height: 200px;
+
+    background-image: linear-gradient(to bottom, rgb(183, 0, 255), rgb(255, 0, 140));
+}
+
+.gradiente2 {
+    width: 800px;
+    height: 200px;
+
+    background-image: linear-gradient(to right, rgb(183, 0, 255), rgb(255, 0, 140));
+}
+
+.gradiente3 {
+    width: 800px;
+    height: 200px;
+
+    background-image: linear-gradient(to left, rgb(183, 0, 255), rgb(255, 0, 140));
+}
+
+.gradiente4 {
+    width: 800px;
+    height: 200px;
+
+    background-image: linear-gradient(to top, rgb(183, 0, 255), rgb(255, 0, 140));
+}
+
+.gradiente5 {
+    width: 800px;
+    height: 200px;
+
+    background-image: linear-gradient(65deg, rgb(183, 0, 255), rgb(255, 0, 140));
+}
+
+.gradiente6 {
+    width: 800px;
+    height: 200px;
+
+    background-image: radial-gradient(rgb(183, 0, 255), rgb(255, 0, 140));
+}
+
+.transformacao1 {
+    width: 300px;
+    height: 300px;
+    background-color: dodgerblue;
+
+    transform: translate(20px, 10px);
+}
+
+.transformacao2 {
+    width: 300px;
+    height: 300px;
+    background-color: greenyellow;
+
+    transform: rotate(30deg);
+}
+
+.transformacao3 {
+    width: 300px;
+    height: 300px;
+    background-color: orchid;
+
+    transform: rotateX(60deg)
+}
+
+.transformacao4 {
+    width: 300px;
+    height: 300px;
+    background-color: mediumpurple;
+
+    transform: rotateY(60deg)
+}
+
+.transformacao5 {
+    width: 300px;
+    height: 300px;
+    background-color: mediumspringgreen;
+
+    transform: rotateZ(60deg)
+}
+
+.transicoes1 {
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue;
+
+    transition: height 2s;
+
+}
+
+.transicoes1:hover {
+    height: 200px;
+}
+
+.transicoes2 {
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+
+    transition: height 2s;
+}
+
+.transicoes2:hover {
+    width: 200px;
+}
+
+.transicoes3 {
+    width: 100px;
+    height: 100px;
+    background-color: orchid;
+
+    transition: height 2s, width 5s;
+}
+
+.transicoes3:hover {
+    width: 200px;
+    height: 200px;
+}
+
+.transicoes4 {
+    width: 100px;
+    height: 100px;
+    background-color: mediumpurple;
+
+    transition: all 3s;
+}
+
+.transicoes4:hover {
+    width: 200px;
+    height: 200px;
+    background-color: fuchsia;
+}
+
+.transicoes5 {
+    width: 100px;
+    height: 100px;
+    background-color: mediumspringgreen;
+
+    transition: all 3s;
+}
+
+.transicoes5:hover {
+    width: 200px;
+    height: 200px;
+    background-color: fuchsia;
+    
+    transform: rotateX(60deg)
+}
